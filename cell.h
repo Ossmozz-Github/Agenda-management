@@ -1,18 +1,16 @@
-//
-// Created by germa on 10/30/2023.
-//
+#ifndef AGENDA_MANAGEMENT_PROJECT_CELL_H
+#define AGENDA_MANAGEMENT_PROJECT_CELL_H
 
 #include "stdlib.h"
 #include "stdio.h"
 
-#ifndef AGENDA_MANAGEMENT_PROJECT_CELL_H
-#define AGENDA_MANAGEMENT_PROJECT_CELL_H
 
-typedef struct s_d_cell
-{
+typedef struct Cell {
     int value;
-    struct s_d_cell *next_0;
-    struct s_d_cell *next_1;
-} t_d_cell;
+    struct Cell** nexts;  // Tableau de pointeurs vers les niveaux
+    int nbLevels;  // Nombre de niveaux
+} Cell;
+
+Cell* createCell(int value, int nbLevels);
 
 #endif //AGENDA_MANAGEMENT_PROJECT_CELL_H

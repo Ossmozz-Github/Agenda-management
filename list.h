@@ -1,16 +1,16 @@
-//
-// Created by germa on 10/30/2023.
-//
-
-#include <cell.h>
-
 #ifndef AGENDA_MANAGEMENT_PROJECT_LIST_H
 #define AGENDA_MANAGEMENT_PROJECT_LIST_H
 
-typedef struct s_d_list
-{
-    t_d_cell *head_0;
-    t_d_cell *head_1;
-} t_d_list;
+#include "cell.h"
+
+typedef struct List {
+    struct Cell** heads;  // Têtes de la liste pour chaque niveau
+} List;
+
+
+List* createEmptyList(int nbLevels);
+void Cell_AddHead(List* list, Cell* cell, int maxLevels);
+void displayLevel(List* list, int level, int maxLevels);
+void displayAllLevels(List* list, int maxLevels);
 
 #endif //AGENDA_MANAGEMENT_PROJECT_LIST_H

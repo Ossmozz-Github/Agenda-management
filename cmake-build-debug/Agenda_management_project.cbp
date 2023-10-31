@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug"/>
+				<Option working_dir="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Agenda_management_project">
-				<Option output="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Agenda_management_project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug"/>
+				<Option output="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Agenda_management_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Agenda_management_project"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Agenda_management_project"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Agenda_management_project/fast">
-				<Option output="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Agenda_management_project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug"/>
+				<Option output="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Agenda_management_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,55 +49,55 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Agenda_management_project/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 Agenda_management_project/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug"/>
+				<Option working_dir="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug"/>
+				<Option working_dir="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLion 2022.3.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cell.c">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cell.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cell.h">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cell.h">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/list.c">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/list.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/list.h">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/list.h">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/main.c">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/main.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/timer.c">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/timer.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/timer.h">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/timer.h">
 			<Option target="Agenda_management_project"/>
 		</Unit>
-		<Unit filename="C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/CMakeLists.txt">
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

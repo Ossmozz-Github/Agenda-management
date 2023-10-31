@@ -1,7 +1,3 @@
-//
-// Created by flasque on 24/06/2022.
-//
-
 #ifndef UNTITLED1_TIMER_H
 #define UNTITLED1_TIMER_H
 
