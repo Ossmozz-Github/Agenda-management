@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/germa/CLionProjects/Agenda management project
+# Install script for directory: C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/germa/CLionProjects/Agenda management project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

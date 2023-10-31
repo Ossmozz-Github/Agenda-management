@@ -1,3 +1,3 @@
-C:/Users/germa/CLionProjects/Agenda management project/cmake-build-debug/CMakeFiles/Agenda_management_project.dir
-C:/Users/germa/CLionProjects/Agenda management project/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/germa/CLionProjects/Agenda management project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/CMakeFiles/Agenda_management_project.dir
+C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/cmake-build-debug/CMakeFiles/rebuild_cache.dir
