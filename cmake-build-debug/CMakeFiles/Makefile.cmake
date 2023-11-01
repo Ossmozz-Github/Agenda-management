@@ -87,7 +87,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique et Structure de données/Projet/module timer-20231026/Agenda-management/CMakeLists.txt"
+  "C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"

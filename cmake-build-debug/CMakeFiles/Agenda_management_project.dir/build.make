@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management"
+CMAKE_SOURCE_DIR = C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Agenda_management_project.dir/depend.make
@@ -69,60 +69,60 @@ include CMakeFiles/Agenda_management_project.dir/progress.make
 include CMakeFiles/Agenda_management_project.dir/flags.make
 
 CMakeFiles/Agenda_management_project.dir/main.c.obj: CMakeFiles/Agenda_management_project.dir/flags.make
-CMakeFiles/Agenda_management_project.dir/main.c.obj: C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique\ et\ Structure\ de\ données/Projet/module\ timer-20231026/Agenda-management/main.c
+CMakeFiles/Agenda_management_project.dir/main.c.obj: C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/main.c
 CMakeFiles/Agenda_management_project.dir/main.c.obj: CMakeFiles/Agenda_management_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Agenda_management_project.dir/main.c.obj"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/main.c.obj -MF CMakeFiles\Agenda_management_project.dir\main.c.obj.d -o CMakeFiles\Agenda_management_project.dir\main.c.obj -c "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Agenda_management_project.dir/main.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/main.c.obj -MF CMakeFiles\Agenda_management_project.dir\main.c.obj.d -o CMakeFiles\Agenda_management_project.dir\main.c.obj -c C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\main.c
 
 CMakeFiles/Agenda_management_project.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Agenda_management_project.dir/main.c.i"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\main.c" > CMakeFiles\Agenda_management_project.dir\main.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\main.c > CMakeFiles\Agenda_management_project.dir\main.c.i
 
 CMakeFiles/Agenda_management_project.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Agenda_management_project.dir/main.c.s"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\main.c" -o CMakeFiles\Agenda_management_project.dir\main.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\main.c -o CMakeFiles\Agenda_management_project.dir\main.c.s
 
 CMakeFiles/Agenda_management_project.dir/timer.c.obj: CMakeFiles/Agenda_management_project.dir/flags.make
-CMakeFiles/Agenda_management_project.dir/timer.c.obj: C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique\ et\ Structure\ de\ données/Projet/module\ timer-20231026/Agenda-management/timer.c
+CMakeFiles/Agenda_management_project.dir/timer.c.obj: C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/timer.c
 CMakeFiles/Agenda_management_project.dir/timer.c.obj: CMakeFiles/Agenda_management_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Agenda_management_project.dir/timer.c.obj"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/timer.c.obj -MF CMakeFiles\Agenda_management_project.dir\timer.c.obj.d -o CMakeFiles\Agenda_management_project.dir\timer.c.obj -c "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\timer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Agenda_management_project.dir/timer.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/timer.c.obj -MF CMakeFiles\Agenda_management_project.dir\timer.c.obj.d -o CMakeFiles\Agenda_management_project.dir\timer.c.obj -c C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\timer.c
 
 CMakeFiles/Agenda_management_project.dir/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Agenda_management_project.dir/timer.c.i"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\timer.c" > CMakeFiles\Agenda_management_project.dir\timer.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\timer.c > CMakeFiles\Agenda_management_project.dir\timer.c.i
 
 CMakeFiles/Agenda_management_project.dir/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Agenda_management_project.dir/timer.c.s"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\timer.c" -o CMakeFiles\Agenda_management_project.dir\timer.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\timer.c -o CMakeFiles\Agenda_management_project.dir\timer.c.s
 
 CMakeFiles/Agenda_management_project.dir/cell.c.obj: CMakeFiles/Agenda_management_project.dir/flags.make
-CMakeFiles/Agenda_management_project.dir/cell.c.obj: C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique\ et\ Structure\ de\ données/Projet/module\ timer-20231026/Agenda-management/cell.c
+CMakeFiles/Agenda_management_project.dir/cell.c.obj: C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cell.c
 CMakeFiles/Agenda_management_project.dir/cell.c.obj: CMakeFiles/Agenda_management_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Agenda_management_project.dir/cell.c.obj"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/cell.c.obj -MF CMakeFiles\Agenda_management_project.dir\cell.c.obj.d -o CMakeFiles\Agenda_management_project.dir\cell.c.obj -c "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cell.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Agenda_management_project.dir/cell.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/cell.c.obj -MF CMakeFiles\Agenda_management_project.dir\cell.c.obj.d -o CMakeFiles\Agenda_management_project.dir\cell.c.obj -c C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cell.c
 
 CMakeFiles/Agenda_management_project.dir/cell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Agenda_management_project.dir/cell.c.i"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cell.c" > CMakeFiles\Agenda_management_project.dir\cell.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cell.c > CMakeFiles\Agenda_management_project.dir\cell.c.i
 
 CMakeFiles/Agenda_management_project.dir/cell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Agenda_management_project.dir/cell.c.s"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cell.c" -o CMakeFiles\Agenda_management_project.dir\cell.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cell.c -o CMakeFiles\Agenda_management_project.dir\cell.c.s
 
 CMakeFiles/Agenda_management_project.dir/list.c.obj: CMakeFiles/Agenda_management_project.dir/flags.make
-CMakeFiles/Agenda_management_project.dir/list.c.obj: C:/Users/germa/OneDrive/Documents/Efrei/L2/Algorithmique\ et\ Structure\ de\ données/Projet/module\ timer-20231026/Agenda-management/list.c
+CMakeFiles/Agenda_management_project.dir/list.c.obj: C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/list.c
 CMakeFiles/Agenda_management_project.dir/list.c.obj: CMakeFiles/Agenda_management_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Agenda_management_project.dir/list.c.obj"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/list.c.obj -MF CMakeFiles\Agenda_management_project.dir\list.c.obj.d -o CMakeFiles\Agenda_management_project.dir\list.c.obj -c "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\list.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Agenda_management_project.dir/list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Agenda_management_project.dir/list.c.obj -MF CMakeFiles\Agenda_management_project.dir\list.c.obj.d -o CMakeFiles\Agenda_management_project.dir\list.c.obj -c C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\list.c
 
 CMakeFiles/Agenda_management_project.dir/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Agenda_management_project.dir/list.c.i"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\list.c" > CMakeFiles\Agenda_management_project.dir\list.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\list.c > CMakeFiles\Agenda_management_project.dir\list.c.i
 
 CMakeFiles/Agenda_management_project.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Agenda_management_project.dir/list.c.s"
-	"C:\PROGRA~1\JETBRA~1\CLion 2022.3.1\bin\mingw\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\list.c" -o CMakeFiles\Agenda_management_project.dir\list.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\list.c -o CMakeFiles\Agenda_management_project.dir\list.c.s
 
 # Object files for target Agenda_management_project
 Agenda_management_project_OBJECTS = \
@@ -142,7 +142,7 @@ Agenda_management_project.exe: CMakeFiles/Agenda_management_project.dir/build.ma
 Agenda_management_project.exe: CMakeFiles/Agenda_management_project.dir/linklibs.rsp
 Agenda_management_project.exe: CMakeFiles/Agenda_management_project.dir/objects1.rsp
 Agenda_management_project.exe: CMakeFiles/Agenda_management_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Agenda_management_project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Agenda_management_project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Agenda_management_project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/Agenda_management_project.dir/clean:
 .PHONY : CMakeFiles/Agenda_management_project.dir/clean
 
 CMakeFiles/Agenda_management_project.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management" "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management" "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug" "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug" "C:\Users\germa\OneDrive\Documents\Efrei\L2\Algorithmique et Structure de données\Projet\module timer-20231026\Agenda-management\cmake-build-debug\CMakeFiles\Agenda_management_project.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug C:\Users\samyb\OneDrive\Documents\GitHub\Agenda-management\cmake-build-debug\CMakeFiles\Agenda_management_project.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Agenda_management_project.dir/depend
 

@@ -31,7 +31,6 @@ void displayLevel(List* list, int level, int maxLevels) {
         printf("Niveau invalide\n");  // Affiche un message d'erreur si le niveau qu'on veut n'existe pas
         return;
     }
-
     printf("[list head_%d @-]-->", level);
 
     Cell* temp = list->heads[level];
@@ -50,5 +49,21 @@ void displayLevel(List* list, int level, int maxLevels) {
 void displayAllLevels(List* list, int maxLevels) {
     for (int i = 0; i < maxLevels; i++) {
         displayLevel(list, i, maxLevels);
+    }
+}
+
+void Cell_AddAt(List* list, Cell* cell, int level){
+    Cell* temp=list->heads[level];
+    Cell* prev=NULL;    // Car prev est la cellule avant temp
+    while(temp!=NULL && temp->value <= cell->value){
+        prev=temp;
+        temp=temp->nexts[level];
+    }
+    if(prev==NULL){    // Si la nouvelle cellule est plus petite que la tete
+        cell->nexts[level] = list->heads[level];
+        list->heads[level] = cell;
+    }else {
+        prev->nexts[level] = cell;
+        cell->nexts[level] = temp;
     }
 }
