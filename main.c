@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>º
 #include "list.h"
 
 int main() {
@@ -26,6 +26,13 @@ int main() {
         Cell_AddAt(list, cell4, i);
     }
     displayAllLevels(list, maxLevels);
+    printf("\n");
+
+    classicSearch(list, 4);
+    classicSearch(list, 6);
+    classicSearch(list, 0);
+
+    printf("\n");
 
     return 0;
 }

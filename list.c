@@ -67,3 +67,17 @@ void Cell_AddAt(List* list, Cell* cell, int level){
         cell->nexts[level] = temp;
     }
 }
+
+void classicSearch(List* list, int val) {  // Recherche au niveau 0
+    displayLevel(list, 0, list->heads[0]->nbLevels);
+    Cell* temp = list->heads[0];
+    while (temp != NULL && temp->value != val) {
+        temp = temp->nexts[0];
+    }
+    if (temp != NULL && temp->value == val) {
+        printf("%d found at level 0\n", val);
+    } else {
+        printf("%d not found at level 0\n", val);
+    }
+}
+
