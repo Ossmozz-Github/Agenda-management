@@ -11,7 +11,7 @@ int main() {
     Cell* cell1 = createCell(4, 3);
     Cell* cell2 = createCell(9, 4);
     Cell* cell3 = createCell(5, 2);
-    Cell* cell4 = createCell(6, 2);
+    Cell* cell4 = createCell(6, 4);
 
     Cell_AddHead(list, cell1, maxLevels);
     Cell_AddHead(list, cell2, maxLevels);
@@ -31,6 +31,16 @@ int main() {
     classicSearch(list, 4);
     classicSearch(list, 6);
     classicSearch(list, 0);
+
+    printf("\n");
+
+    Leveled_List(mylist,3);
+
+    printf("\n");
+
+    for (int i=(maxLevels-1); i>=0; i--){
+        SearchAll(list, 4, i);
+    }
 
     printf("\n");
 

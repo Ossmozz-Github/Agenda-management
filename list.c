@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 #include "list.h"
 
 
@@ -27,7 +28,7 @@ void Cell_AddHead(List* list, Cell* cell, int maxLevels) {
 }
 
 void displayLevel(List* list, int level, int maxLevels) {
-    if (level < 0 || level >= maxLevels) {
+    if (level < 0 || level > maxLevels) {
         printf("Niveau invalide\n");  // Affiche un message d'erreur si le niveau qu'on veut n'existe pas
         return;
     }
@@ -68,6 +69,27 @@ void Cell_AddAt(List* list, Cell* cell, int level){
     }
 }
 
+int nbDivideBy2(int n){
+    int result = 0;
+    while((n % 2 == 0)&&(n != 0)){
+        result++;
+        n=n/2;
+    }
+    return result;
+}
+
+void Leveled_List(List *list, int n){
+    int *levels;
+    int cases = pow(2,n) - 1;
+    levels = (int*)malloc(cases * sizeof(int));
+    for (int i = 0 ; i < cases ; i++)
+    {
+        levels[i] = nbDivideBy2(i+1);
+        printf("%d ", levels[i]);
+    }
+    printf("\n");
+}
+
 void classicSearch(List* list, int val) {  // Recherche au niveau 0
     displayLevel(list, 0, list->heads[0]->nbLevels);
     Cell* temp = list->heads[0];
@@ -81,3 +103,15 @@ void classicSearch(List* list, int val) {  // Recherche au niveau 0
     }
 }
 
+void SearchAll(List* list, int val, int level) {  // Recherche dans tous les niveaux en partant du plus haut
+    displayLevel(list, level, list->heads[level]->nbLevels);
+    Cell* temp = list->heads[level];
+    while (temp != NULL && temp->value != val) {
+        temp = temp->nexts[level];
+    }
+    if (temp != NULL && temp->value == val) {
+        printf("%d found at level %d\n", val,level);
+    } else {
+        printf("%d not found at level %d\n", val,level);
+    }
+}

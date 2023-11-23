@@ -13,6 +13,9 @@ void Cell_AddHead(List* list, Cell* cell, int maxLevels);
 void displayLevel(List* list, int level, int maxLevels);
 void displayAllLevels(List* list, int maxLevels);
 void Cell_AddAt(List* list, Cell* cell, int level);
+int nbDivideBy2(int n);
+void Leveled_List(List *list, int n);
 void classicSearch(List* list, int target);
+void SearchAll(List* list, int val, int level);
 
 #endif //AGENDA_MANAGEMENT_PROJECT_LIST_H

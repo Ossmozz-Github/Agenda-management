@@ -47,6 +47,7 @@ CMakeFiles/Agenda_management_project.dir/list.c.obj: C:/Users/samyb/OneDrive/Doc
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/math.h \
   C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/list.h \
   C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cell.h
 
@@ -154,6 +155,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.1/bin/mingw/x86_64-w64-mingw32/include/math.h:
 
 C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/list.h:
 
