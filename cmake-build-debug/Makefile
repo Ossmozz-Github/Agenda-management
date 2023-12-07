@@ -128,6 +128,30 @@ Agenda_management_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/build
 .PHONY : Agenda_management_project/fast
 
+agenda.obj: agenda.c.obj
+.PHONY : agenda.obj
+
+# target to build an object file
+agenda.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/agenda.c.obj
+.PHONY : agenda.c.obj
+
+agenda.i: agenda.c.i
+.PHONY : agenda.i
+
+# target to preprocess a source file
+agenda.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/agenda.c.i
+.PHONY : agenda.c.i
+
+agenda.s: agenda.c.s
+.PHONY : agenda.s
+
+# target to generate assembly for a file
+agenda.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/agenda.c.s
+.PHONY : agenda.c.s
+
 cell.obj: cell.c.obj
 .PHONY : cell.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Agenda_management_project
+	@echo ... agenda.obj
+	@echo ... agenda.i
+	@echo ... agenda.s
 	@echo ... cell.obj
 	@echo ... cell.i
 	@echo ... cell.s

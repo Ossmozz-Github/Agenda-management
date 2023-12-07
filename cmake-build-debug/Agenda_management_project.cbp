@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/agenda.c">
+			<Option target="Agenda_management_project"/>
+		</Unit>
+		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/agenda.h">
+			<Option target="Agenda_management_project"/>
+		</Unit>
 		<Unit filename="C:/Users/samyb/OneDrive/Documents/GitHub/Agenda-management/cell.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
