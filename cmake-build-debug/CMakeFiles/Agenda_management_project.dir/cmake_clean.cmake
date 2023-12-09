@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Agenda_management_project.exe"
   "Agenda_management_project.exe.manifest"
   "Agenda_management_project.pdb"
+  "CMakeFiles/Agenda_management_project.dir/agenda.c.obj"
+  "CMakeFiles/Agenda_management_project.dir/agenda.c.obj.d"
   "CMakeFiles/Agenda_management_project.dir/cell.c.obj"
   "CMakeFiles/Agenda_management_project.dir/cell.c.obj.d"
   "CMakeFiles/Agenda_management_project.dir/list.c.obj"

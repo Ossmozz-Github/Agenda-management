@@ -1,4 +1,4 @@
-#include <stdio.h>
+        #include <stdio.h>
 #include <malloc.h>
 #include "timer.h"
 
@@ -39,3 +39,4 @@ char *getTimeAsString()
     // return the buffer
     return buffer;
 }
+

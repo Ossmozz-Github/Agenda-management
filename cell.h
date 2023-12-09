@@ -7,10 +7,10 @@
 
 typedef struct Cell {
     int value;
-    struct Cell** nexts;  // Tableau de pointeurs vers les niveaux
+    struct Cell **nexts;  // Tableau de pointeurs vers les niveaux
     int nbLevels;  // Nombre de niveaux
 } Cell;
 
-Cell* createCell(int value, int nbLevels);
+Cell *createCell(int value, int nbLevels);
 
 #endif //AGENDA_MANAGEMENT_PROJECT_CELL_H
