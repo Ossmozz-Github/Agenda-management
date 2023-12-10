@@ -106,7 +106,6 @@ void Leveled_List(List *list, int n)
 
     }
 
-
     Cell* subtemp = NULL;
     //Remplie le tableau de levels
     //Systeme de double boucle conditionnel complexe
