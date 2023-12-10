@@ -37,17 +37,17 @@ void displayLevel(List* list, int level, int maxLevels) {
     if ( temp== NULL){
         printf("NULL");
     }else {
-        while (temp != NULL) {
+        while (temp != NULL) {    // tant que temp est different de NULL, print la cellule et passe a la suivante
             printf("[ %d|@-]-->", temp->value);
             temp = temp->nexts[level];
         }
-        printf("NULL");
+        printf("NULL");  // si la prochaine est NULL
     }
     printf("\n");
 }
 
 void displayAllLevels(List* list, int maxLevels) {
-    for (int i = 0; i < maxLevels; i++) {
+    for (int i = 0; i < maxLevels; i++) {  // utilise une boucle pour print tous les niveaux
         displayLevel(list, i, maxLevels);
     }
 }
@@ -149,7 +149,7 @@ void Leveled_List(List *list, int n)
 
 void classicSearch(List *list, int val) {  // Recherche au niveau 0
     Cell *temp = list->heads[0];
-    while (temp != NULL && temp->value != val) {
+    while (temp != NULL && temp->value != val) {     // avance jusqu'a trouver la valeur cherche
         temp = temp->nexts[0];
     }
     if (temp != NULL && temp->value == val) {
@@ -165,16 +165,16 @@ void SearchAll(List *list, int val, int maxLevels) {
     Cell *temp = list->heads[maxLevels - 1];
     while (maxLevels > 0 && temp->value != val) {
         if (temp->nexts[maxLevels - 1] == NULL || temp->nexts[maxLevels - 1]->value > val) {
-            maxLevels--;
+            maxLevels--;  // baisse d'un niveau si arrive a la fin de la liste ou si superieur a la valeur cherche
             if (alwaysAtHead) {
-                if ((temp->value > val)) {
-                    temp = list->heads[maxLevels - 1];
+                if ((temp->value > val)) {   // si superieur a la valeur cherche
+                    temp = list->heads[maxLevels - 1];     // reprend de la tete dans le niveau en dessous
                 } else {
                     alwaysAtHead = 0;
                 }
             }
         } else {
-            temp = temp->nexts[maxLevels - 1];
+            temp = temp->nexts[maxLevels - 1];  // avance si le premier if n'est pas verifie
             alwaysAtHead = 0;
         }
     }
@@ -185,36 +185,48 @@ void SearchAll(List *list, int val, int maxLevels) {
     }
 }
 
+// Définition de la fonction complexity
 void complexity(int maxLevels, int nb_recherche, char **time_lvl0, char **time_all_levels) {
+    // Initialisation du générateur de nombres aléatoires
     srand(time(NULL));
+
+    // Création d'une liste vide avec un nombre maximal de niveaux spécifié
     List* list = createEmptyList(maxLevels);
     Cell* cell5;
     int randomNumber;
-    for (int i = 0 ; i < pow(2,maxLevels) - 1 ; i++)
+
+    // Remplissage de la liste avec des nombres aléatoires
+    for (int i = 0 ; i < pow(2, maxLevels) - 1 ; i++)
     {
-        randomNumber = rand()%100000;
+        randomNumber = rand() % 100000;
         cell5 = createCell(randomNumber, maxLevels);
         Cell_AddAt(list, cell5, 0);
     }
 
+    // Début du chronométrage pour la recherche classique
     startTimer();
     for (int num = 0; num < nb_recherche; num++) {
-        classicSearch(list, rand()%100000);
+        classicSearch(list, rand() % 100000);
     }
+    // Arrêt du chronomètre et enregistrement du temps
     stopTimer();
     displayTime();
     *time_lvl0 = getTimeAsString();
+
+    // Application de la fonction Leveled_List pour organiser la liste par niveaux
     Leveled_List(list, maxLevels);
+
+    // Début du chronométrage pour la recherche sur tous les niveaux
     startTimer();
     for (int num = 0; num < nb_recherche; num++) {
-        SearchAll(list,rand()%100000, maxLevels);
+        SearchAll(list, rand() % 100000, maxLevels);
     }
+    // Arrêt du chronomètre et enregistrement du temps
     stopTimer();
     displayTime();
     *time_all_levels = getTimeAsString();
-
-
 }
+
 
 void displayCell(Cell *cell, int level) {
     if (level <= cell->nbLevels) {     // seulement si le niveau actuel est inferieur au niveau max de la cellule
