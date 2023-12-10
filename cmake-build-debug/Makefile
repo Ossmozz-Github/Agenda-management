@@ -176,6 +176,30 @@ cell.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/cell.c.s
 .PHONY : cell.c.s
 
+diary-management.obj: diary-management.c.obj
+.PHONY : diary-management.obj
+
+# target to build an object file
+diary-management.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/diary-management.c.obj
+.PHONY : diary-management.c.obj
+
+diary-management.i: diary-management.c.i
+.PHONY : diary-management.i
+
+# target to preprocess a source file
+diary-management.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/diary-management.c.i
+.PHONY : diary-management.c.i
+
+diary-management.s: diary-management.c.s
+.PHONY : diary-management.s
+
+# target to generate assembly for a file
+diary-management.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Agenda_management_project.dir\build.make CMakeFiles/Agenda_management_project.dir/diary-management.c.s
+.PHONY : diary-management.c.s
+
 list.obj: list.c.obj
 .PHONY : list.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... cell.obj
 	@echo ... cell.i
 	@echo ... cell.s
+	@echo ... diary-management.obj
+	@echo ... diary-management.i
+	@echo ... diary-management.s
 	@echo ... list.obj
 	@echo ... list.i
 	@echo ... list.s

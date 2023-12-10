@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Agenda_management_project.dir/agenda.c.obj.d"
   "CMakeFiles/Agenda_management_project.dir/cell.c.obj"
   "CMakeFiles/Agenda_management_project.dir/cell.c.obj.d"
+  "CMakeFiles/Agenda_management_project.dir/diary-management.c.obj"
+  "CMakeFiles/Agenda_management_project.dir/diary-management.c.obj.d"
   "CMakeFiles/Agenda_management_project.dir/list.c.obj"
   "CMakeFiles/Agenda_management_project.dir/list.c.obj.d"
   "CMakeFiles/Agenda_management_project.dir/main.c.obj"

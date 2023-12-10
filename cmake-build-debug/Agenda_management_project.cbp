@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/alpha/Documents/GitHub/Agenda-management/cell.h">
 			<Option target="Agenda_management_project"/>
 		</Unit>
+		<Unit filename="C:/Users/alpha/Documents/GitHub/Agenda-management/diary-management.c">
+			<Option target="Agenda_management_project"/>
+		</Unit>
+		<Unit filename="C:/Users/alpha/Documents/GitHub/Agenda-management/diary-management.h">
+			<Option target="Agenda_management_project"/>
+		</Unit>
 		<Unit filename="C:/Users/alpha/Documents/GitHub/Agenda-management/list.c">
 			<Option target="Agenda_management_project"/>
 		</Unit>
